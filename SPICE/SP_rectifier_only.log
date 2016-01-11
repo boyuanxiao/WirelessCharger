@@ -2,21 +2,21 @@ Circuit: * Z:\home\administrator\WirelessCharger\SPICE\SP_rectifier_only.asc
 
 .OP point found by inspection.
 
-Date: Mon Jan 11 22:40:51 2016
-Total elapsed time: 1.068 seconds.
+Date: Mon Jan 11 23:01:06 2016
+Total elapsed time: 1.800 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 136251
-traniter = 136251
-tranpoints = 41713
-accept = 27467
-rejected = 14246
+totiter = 127355
+traniter = 127355
+tranpoints = 39194
+accept = 26149
+rejected = 13045
 matrix size = 13
 fillins = 8
 solver = Normal
-Matrix Compiler1: 1.29 KB object code size  1.4/0.6/[0.5]
-Matrix Compiler2: 1.19 KB object code size  0.5/0.6/[0.5]
+Matrix Compiler1: 1.29 KB object code size  0.8/0.5/[0.4]
+Matrix Compiler2: 1.19 KB object code size  0.4/0.4/[0.3]
 
 

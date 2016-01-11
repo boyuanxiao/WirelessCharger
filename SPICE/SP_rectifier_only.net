@@ -8,14 +8,14 @@ D1 Rec+ DC_Link+ RF2001T4S
 D2 Sec- DC_Link+ RF2001T4S
 D4 0 Sec- RF2001T4S
 R5 Sec- Vin- 10Meg
-V1 Vin+ Vin- SINE(0 70 34k) AC 50 Rser=0.01
+V1 Vin+ Vin- SINE(0 100 34k) AC 50 Rser=0.01
 R2 DC_Link+ 0 10
-C2 Vin- N001 241n
+C2 Vin- N001 220n
 R1 N001 Vin+ 0.2
-C1 Rec+ Sec+ 241n
+C1 Rec+ Sec+ 220n
 .model D D
 .lib C:\Program Files (x86)\LTC\LTspiceIV\lib\cmp\standard.dio
-K L1 L2 0.4
+K L1 L2 0.25
 * For a certain coupling coefficient, want to get the maximum power transfer from the source to the battery
 * Want > 20k to avoid a high pitched hum
 * Efficiency and output is highly dependent on the resonance capacitor.
